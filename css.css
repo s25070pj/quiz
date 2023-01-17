@@ -16,7 +16,8 @@ body {
     border-radius: 50px;
     padding: 20px;
     box-shadow:  0 0.4rem 5.4rem 0 rgbA(80, 134, 264, 0.6);
-
+    max-height: content-box;
+    max-width: content-box;
 
 
 }
@@ -31,7 +32,7 @@ h2{
     margin-bottom: 4rem;
 }
 .container{
-    height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,10 +42,12 @@ h2{
 }
 .flex-column{
     display: flex;
+
     flex-direction: column;
 }
 .flex-center{
     display: flex;
+
     justify-content: center;
     align-items: center;
 }
